@@ -6,6 +6,13 @@ jQuery(document).ready(function () {
             "<strong> mwuahh</strong><strong class= 'primary'> mwuahhh!!.</strong>"],
         typespeed: 0,
         loop: true
-    });
 
-});
+        });
+
+    $(".slider").ripples({
+        dropRadius: 11,
+        pertubance: 0.01,
+    });
+}
+
+)
